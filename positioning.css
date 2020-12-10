@@ -1,0 +1,46 @@
+html {
+    border-left: 2px solid blue;
+}
+
+#content {
+    position: relative;
+    width: 70%;
+    text-align: justified;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 30px;
+    margin: 10px 0;
+}
+
+#fixed-box {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #eee;
+    position: fixed;
+    top: 0;
+    left: 2px;
+    width: 145px;
+}
+
+#relative-box {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px;
+    height: 200px;
+    background-color: #eee;
+    position: relative;
+}
+
+#absolute-box {
+    padding: 20px;
+    background-color: #999;
+    position: absolute;
+    height: 40%;
+    width: 50%;
+    bottom: 0;
+    right: -40px;
+}
